@@ -1,7 +1,7 @@
 /*-------------------- VARIABlES--SCSS-------------------- */
 $Color-background: #FFCD48;
 $background-body:#f2f2f2;
-$color-blanco:#fff;
+
 
 
 
@@ -15,9 +15,10 @@ $color-blanco:#fff;
 a {
 	text-decoration: none;
 	outline: none;
-        &:hover{
-            text-decoration: underline;
-        }
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 body {
@@ -28,22 +29,21 @@ body {
 
 .navbar {
 	background: $Color-background;
-        a {
-            color: $color-blanco;
-            display: inline-block;
-            padding: 20px;
-            width: 100%;
-            text-align: center;
-            color: #000;
-            transition: .3s ease-out all;
-        }
 }
 
-
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
 
 .navbar a:hover {
 	background: #1D2F3D;
-	color: $color-blanco;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ aside .titulo {
 	font-weight: normal;
 	font-size: 24px;
 	margin-bottom: 20px;
-	color: $color-blanco;
+	color: #f2f2f2;
 }
 
 aside .indice a {
